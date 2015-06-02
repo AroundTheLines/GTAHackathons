@@ -23,8 +23,10 @@ body, html{
 	color: #6C6C6C;
 }
 
-.intro-body{
+.intro{
 	color: #FBFBFB;
+	text-align: center;
+	height: auto;
 }
 
 footer div p{
