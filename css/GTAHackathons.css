@@ -26,3 +26,8 @@ body, html{
 .intro-body{
 	color: #FBFBFB;
 }
+
+footer div p{
+	padding-top: 1em;
+	height:3em;
+}
