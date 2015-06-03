@@ -19,7 +19,11 @@ a{
 	text-decoration: none;
 	font-size: 1.3em;
 	color: #FFFF00;
-	border: 2px solid #FFFF00;
+	margin-left: 1em;
+}
+
+.navbar-custom .nav .highlight{
+	border: 1px solid #FFFF00;
 	-moz-border-radius: 4px; 
     -webkit-border-radius: 4px; 
     border-radius: 4px;
@@ -34,6 +38,7 @@ a{
     outline: 0;
     background: #FFFF00;
     color: #00008b;
+    border: 1px solid #FFFF00;
     -moz-border-radius: 4px; 
     -webkit-border-radius: 4px; 
     border-radius: 4px;
@@ -73,8 +78,18 @@ a{
 	font-weight: 100;
 }
 
+.events{
+	margin-top:2em;
+}
+
 .event-body{
 	text-align: center;
+}
+
+.event-heading{
+	font-weight: 500;
+	font-size: 3em;
+	color: #666665;
 }
 
 footer div p{
