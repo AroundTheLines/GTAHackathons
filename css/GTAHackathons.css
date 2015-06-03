@@ -9,8 +9,6 @@ a{
 	color:#888888;
 }
 
-
-
 .navbar-custom{
 	color:#FFFFFF;
 	padding-top: 2vh;
@@ -54,7 +52,7 @@ a{
     height: 100%;
     padding: 100px 0;
     text-align: center;
-    color: rgba(255,255,255,0.9);
+    color: rgba(255,255,255,0.95);
     background: url(../img/toronto2.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -73,6 +71,10 @@ a{
 .intro-text{
 	font-size: 4em;
 	font-weight: 100;
+}
+
+.event-body{
+	text-align: center;
 }
 
 footer div p{
