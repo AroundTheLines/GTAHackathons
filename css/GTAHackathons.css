@@ -1,12 +1,51 @@
 body, html{
 	height: 100%;
 	color: #888888;
-	font: sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
-a:link,
-a:visited{
+a{
+	text-decoration: none;
 	color:#888888;
+}
+
+
+
+.navbar-custom{
+	color:#FFFFFF;
+	padding-top: 2vh;
+	position: absolute;
+}
+
+.navbar-custom .nav a{
+	text-decoration: none;
+	font-size: 1.3em;
+	color: #FFFF00;
+	border: 2px solid #FFFF00;
+	-moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    border-radius: 4px;
+}
+
+.navbar-custom li a:hover{
+	outline: 0;
+	background: 
+}
+
+.navbar-custom .nav li a:hover{
+    outline: 0;
+    background: #FFFF00;
+    color: #00008b;
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    border-radius: 4px;
+    transition: all 200ms ease-in-out 0s;
+}
+
+.navbar-header p{
+	text-decoration: none;
+	font-size: 2.2em;
+	color: #FFFFFF;
 }
 
 .intro {
@@ -15,7 +54,7 @@ a:visited{
     height: 100%;
     padding: 100px 0;
     text-align: center;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255,255,255,0.9);
     background: url(../img/toronto2.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -32,34 +71,8 @@ a:visited{
 }
 
 .intro-text{
-	font-size: 50px;
+	font-size: 4em;
 	font-weight: 100;
-}
-
-.navbar-custom{
-	color:#FFFFFF;
-	padding-top: 1vh;
-	position: absolute;
-}
-
-.navbar-custom a:link,
-.navbar-custom a:visited{
-	color: rgba(255,255,255,0.6);
-}
-
-.navbar-custom li a:hover{
-	outline: 0;
-	background: 
-}
-
-.navbar-custom .nav li a:hover{
-    outline: 0;
-    background: rgba(81,45,168,0.7);
-    color: #FFFFFF;
-    -moz-border-radius: 4px; 
-    -webkit-border-radius: 4px; 
-    border-radius: 4px;
-    transition: all 200ms ease-in-out 0s;
 }
 
 footer div p{
