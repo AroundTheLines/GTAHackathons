@@ -15,26 +15,25 @@ a{
 	position: absolute;
 }
 
-.navbar-custom .nav a{
+.navbar-custom .nav li a{ /*All of the <a> tags in the navbar except the event button*/
 	text-decoration: none;
 	font-size: 1.3em;
 	color: #FFFF00;
 	margin-left: 1em;
+	border: 1px solid transparent;
+	 -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    border-radius: 4px;
 }
 
-.navbar-custom .nav .highlight{
+.navbar-custom .nav .highlight{ /*Only the Events button*/
 	border: 1px solid #FFFF00;
 	-moz-border-radius: 4px; 
     -webkit-border-radius: 4px; 
     border-radius: 4px;
 }
 
-.navbar-custom li a:hover{
-	outline: 0;
-	background: 
-}
-
-.navbar-custom .nav li a:hover{
+.navbar-custom .nav li a:hover{ /*on-hover for all of the <a> tags in the navbar*/
     outline: 0;
     background: #FFFF00;
     color: #00008b;
@@ -45,13 +44,13 @@ a{
     transition: all 200ms ease-in-out 0s;
 }
 
-.navbar-header p{
+.navbar-header p{ /*The large "GTAHackathons" thing at the top left*/
 	text-decoration: none;
 	font-size: 2.2em;
 	color: #FFFFFF;
 }
 
-.intro {
+.intro { /*The backsplash intro*/
     display: table;
     width: 100%;
     height: 100%;
@@ -68,7 +67,7 @@ a{
 }
 
 
-.intro-body{
+.intro-body{/*controls the divs for the intro*/
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -78,7 +77,7 @@ a{
 	font-weight: 100;
 }
 
-.events{
+.events{/*All of the stuff in the events section.*/
 	margin-top:2em;
 }
 
