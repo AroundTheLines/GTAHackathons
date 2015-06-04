@@ -17,11 +17,11 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
 		<script src="js/GTAHackathons.js" type="text/javascript"></script>
 
 	</head>
-	<body>
-
+	<body ng-app="gtaHackathons">
 		<nav class="navbar navbar-fixed-top navbar-custom">
 			<div class="container">
 				<div class="navbar-header">
@@ -59,21 +59,31 @@
 						<h2 class="about-heading">What is a Hackathon?</h2>
 						<p class="about-paragraph">A hackathon is an event where participants can work on any software and hardware project of their choosing without distraction. At the end of the competition you will be given the chance to present your project to the audience for a chance at winning one of the various prizes. There will be mentors and volunteers to assist you at every step of the way.</p>
 						<h3 class="about-subheading">But what if I'm inexperienced?</h3>
-						<p class="about-paragraph">No worries! So long as you're willing to learn you'll be a great fit at a hackathon. They're great ways to get that experience that you're missing.</p>
+						<p class="about-paragraph">No worries! So long as you're willing to learn you'll be a great fit at a hackathon. They're great ways to get the experience that you're missing.</p>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section id="events" class="events">
-			<div class="container event-body">
-				<h2 class="event-heading">Events</h2>
-				<ul class="nav nav-tabs">
-					<li class="active event-tabs"><a href="" class="event-text">All</a></li>
-					<li class="event-tabs"><a href="" class="event-text">Upcoming</a></li>
-					<li class="event-tabs"><a href="" class="event-text">Past</a></li>
-				</ul>
-				<p>test text</p>
+		<section id="events" class="events" ng-controller="TabController as tab">
+			<div class="container-fluid event-body">
+				<div class="col-md-8 col-md-offset-2">
+					<h2 class="event-heading">Events</h2>
+					<ul class="event-tabs nav nav-tabs">
+						<li ng-class="{active:tab.isSet(1)}"><a ng-click="tab.setTab(1)" class="event-text" href>All</a></li>
+						<li ng-class="{active:tab.isSet(2)}"><a ng-click="tab.setTab(2)" class="event-text" href>Upcoming</a></li>
+						<li ng-class="{active:tab.isSet(3)}"><a ng-click="tab.setTab(3)" class="event-text" href>Past</a></li>
+					</ul>
+					<div id="all-tab" ng-show="tab.isSet(1)">
+						<p>all</p>
+					</div>
+					<div id="upcoming-tab" ng-show="tab.isSet(2)">
+						<p>upcoming</p>
+					</div>
+					<div id="past-tab" ng-show="tab.isSet(3)">
+						<p>past</p>
+					</div>
+				</div>
 			</div>
 		</section>
 
@@ -82,8 +92,5 @@
 				<p>&copy; Qile Wang 2015. Cover image by <a class="muted" href="https://www.flickr.com/photos/bielousov/">Anton Bielousov</a>. Image licensed under <a href="https://creativecommons.org/licenses/by/2.0/">creative commons 2.0</a>.</p>
 			</div>
 		</footer>
-
-
-		<script src="js/bootstrap.min.js" type="text/javascript"></script>
 	</body>
 </html>
