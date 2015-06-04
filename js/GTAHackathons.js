@@ -14,13 +14,29 @@
 		}
 	});
 
-	var hackathons = [{
-		name: "Hack the North",
-		date: "September 18-20, 2015",
-		venue: "University of Waterloo",
-		address:"200 University Ave W, Waterloo, ON N2L 3G1",
-		description: "Hack the North is Canada's premier hackathon. It's an event where 1,000 students with different technical backgrounds and skill levels will come together, for 36 hours, form teams around a problem or idea, and collaboratively code a unique solution from scratch. With world class mentors, food, and hardware resources, you're in for an amazing time!",
-		site: "hackthenorth.com"
-	}];
+	app.controller("AllUpcomingController",function(){
+		this.upcoming = hackathons;
+	});
+
+	var hackathons = [
+		{
+			name:"Tech Retreat",
+			date:"August 15, 2015 8:30 AM to 8:00 PM",
+			venue: "Engineering 5, University of Waterloo",
+			address: "200 University Ave W, Waterloo, ON N2L 3G1",
+			description: "The Waterloo Tech Retreat brings together passionate high school students at a one-day event held in the heart of Canada's technology hub. Hear from seasoned speakers and students in the industry. Learn and collaborate with like-minded peers to create something amazing.",
+			site: "techretreat.ca",
+			image: "http://techretreat.ca/img/techretreat-shaded-moon.png",
+			signups: true
+		},{
+			name: "Hack the North",
+			date: "September 18-20, 2015",
+			venue: "University of Waterloo",
+			address:"200 University Ave W, Waterloo, ON N2L 3G1",
+			description: "Hack the North is Canada's premier hackathon. It's an event where 1,000 students with different technical backgrounds and skill levels will come together, for 36 hours, form teams around a problem or idea, and collaboratively code a unique solution from scratch. With world class mentors, food, and hardware resources, you're in for an amazing time!",
+			site: "hackthenorth.com",
+			image: "http://hackthenorth.com/2014/img/logo.png",
+			signups: false
+		}];
 
 })(); //end of function wrapper. Good form.
