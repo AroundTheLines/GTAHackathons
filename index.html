@@ -55,7 +55,7 @@
 		<section id="about" class="about">
 			<div class="container-fluid about-body">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
+					<div class="col-lg-8 col-lg-offset-2">
 						<h2 class="about-heading">What is a Hackathon?</h2>
 						<p class="about-paragraph">A hackathon is an event where participants can work on any software and hardware project of their choosing without distraction. At the end of the competition you will be given the chance to present your project to the audience for a chance at winning one of the various prizes. There will be mentors and volunteers to assist you at every step of the way.</p>
 						<h3 class="about-subheading">But what if I'm inexperienced?</h3>
@@ -67,20 +67,31 @@
 
 		<section id="events" class="events" ng-controller="TabController as tab">
 			<div class="container-fluid event-body">
-				<div class="col-md-8 col-md-offset-2">
+				<div class="col-lg-8 col-lg-offset-2">
 					<h2 class="event-heading">Events</h2>
 					<ul class="event-tabs nav nav-tabs">
-						<li ng-class="{active:tab.isSet(1)}"><a ng-click="tab.setTab(1)" class="event-text" href>All</a></li>
+						<li ng-class="{active:tab.isSet(1)}"><a ng-click="tab.setTab(1)" class="event-text" href>Open Registration</a></li>
 						<li ng-class="{active:tab.isSet(2)}"><a ng-click="tab.setTab(2)" class="event-text" href>Upcoming</a></li>
 						<li ng-class="{active:tab.isSet(3)}"><a ng-click="tab.setTab(3)" class="event-text" href>Past</a></li>
 					</ul>
-					<div id="all-tab" ng-show="tab.isSet(1)">
-						<p>all</p>
+					<div id="all-tab" class="event-tab-content" ng-show="tab.isSet(1)">
+						<div class="row">
+							<div class="col-md-8">
+								<h3>Hack the North</h3>
+								<h4>September 18-20, 2015<br>University of Waterloo</h4>
+								<h5>200 University Ave W, Waterloo, ON N2L 3G1</h5>
+								<p>Hack the North is Canada's premier hackathon. It's an event where 1,000 students with different technical backgrounds and skill levels will come together, for 36 hours, form teams around a problem or idea, and collaboratively code a unique solution from scratch. With world class mentors, food, and hardware resources, you're in for an amazing time!<br>
+								Find out more at <a href="hackthenorth.com">hackthenorth.com</a>.</p>
+							</div>
+							<div class="col-md-4 event-image">
+								<span></span><img src="http://hackthenorth.com/2014/img/logo.png" class="img-responsive">
+							</div>
+						</div>
 					</div>
-					<div id="upcoming-tab" ng-show="tab.isSet(2)">
+					<div id="upcoming-tab" class="event-tab-content" ng-show="tab.isSet(2)">
 						<p>upcoming</p>
 					</div>
-					<div id="past-tab" ng-show="tab.isSet(3)">
+					<div id="past-tab" class="event-tab-content" ng-show="tab.isSet(3)">
 						<p>past</p>
 					</div>
 				</div>

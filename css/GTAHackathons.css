@@ -18,6 +18,14 @@ h3{
 	font-size:2.2em;
 }
 
+h4{
+	font-size: 1.4em;
+}
+
+h5{
+	font-size: 1.2em;
+}
+
 .navbar-custom{
 	color:#FFFFFF;
 	padding-top: 4vh;
@@ -88,7 +96,7 @@ h3{
 	font-weight: 100;
 }
 
-.about{
+.about{ /*About section stuff*/
 	width:100%;
 	height: auto;
 	color: #FFFFFF;
@@ -120,6 +128,7 @@ h3{
 
 .event-body{
 	text-align: left;
+	color: #333332;
 }
 
 .event-heading{
@@ -130,13 +139,17 @@ h3{
 	color: #666665;
 }
 
-.event-tabs > li > a{
+.event-tabs > li > a{ /*the text inside the tabs. Not the content.*/
 	border-bottom: 1px solid #ddd;
 	background-color: none;
 	transition: all 200ms ease-in-out 0s;
+	font-size: 1.5em;
+	color: #333332;
+	padding-right: 1em;
+	padding-left: 1em;
 }
 
-.event-tabs > li > a:hover{
+.event-tabs > li > a:hover{ /*Transitions!*/
 	border:1px solid #ddd;
 	background-color: #ddd;
 	-moz-border-radius: 5px; 
@@ -149,13 +162,28 @@ h3{
 	transition: all 200ms ease-in-out 0s;
 }
 
-.event-tabs .event-text{
-	font-size: 1.5em;
-	color: #333332;
-	padding-right: 1em;
-	padding-left: 1em;
+.event-tab-content{ /*actual contents of the tabs, and not the tabs themselves*/
+	padding: 0.8em 0;
 }
 
+.event-tab-content a{
+	text-decoration: none;
+	color: #000;
+}
+
+.event-image{ /*The div that contains the image inside the content of a tab*/
+	text-align: center;
+}
+
+.event-image > span{ /*helper workaround there to vertically center image*/
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.event-image > img{ /*Stupid vertical alignment...*/
+	vertical-align: middle;
+}
 
 footer div p{
 	padding-top: 1em;
