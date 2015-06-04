@@ -171,6 +171,10 @@ h5{
 	color: #000;
 }
 
+.event-tab-content a:hover{
+	color: #0000A0;
+}
+
 .event-image{ /*The div that contains the image inside the content of a tab*/
 	text-align: center;
 }

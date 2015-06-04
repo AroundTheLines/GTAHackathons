@@ -18,6 +18,10 @@
 		this.upcoming = hackathons;
 	});
 
+	app.controller("RegistrationOpenController",function(){
+		this.upcoming
+	});
+
 	var hackathons = [
 		{
 			name:"Tech Retreat",
@@ -27,6 +31,15 @@
 			description: "The Waterloo Tech Retreat brings together passionate high school students at a one-day event held in the heart of Canada's technology hub. Hear from seasoned speakers and students in the industry. Learn and collaborate with like-minded peers to create something amazing.",
 			site: "techretreat.ca",
 			image: "http://techretreat.ca/img/techretreat-shaded-moon.png",
+			signups: true
+		},{
+			name:"PCH Hackathon Waterloo",
+			date:"June 12 8:30AM - June 14 7:15PM 2015",
+			venue:"Tannery Event Center",
+			address:"City Commercial Core, Kitchener, ON N2G 1H6",
+			description:"Join us and over 100 designers, developers, tinkerers, and innovators on June 12th, 13th and 14th for a weekend dedicated to developing ideas and hacking hardware.",
+			site: "hackathon.pchintl.com/hackathons/kitchener-waterloo",
+			image: "http://i.imgur.com/kRAkj2g.png",
 			signups: true
 		},{
 			name: "Hack the North",
