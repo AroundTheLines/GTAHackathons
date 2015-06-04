@@ -94,10 +94,38 @@
 						</div><!--ng-repeat-->
 					</div><!--all-tab-->
 					<div id="upcoming-tab" class="event-tab-content" ng-show="tab.isSet(2)" ng-controller="RegistrationOpenController as registrationOpen">
-						<p>upcoming</p>
+						<div ng-repeat="hackathon in registrationOpen.open">
+							<div class="row">
+								<div class="col-md-8">
+									<h3>{{hackathon.name}}</h3>
+									<h4>{{hackathon.date}}<br>{{hackathon.venue}}</h4>
+									<h5>{{hackathon.address}}</h5>
+									<p>{{hackathon.description}}<p>
+									<p>Find out more at <a ng-href="{{'http://' + hackathon.site}}">{{hackathon.site}}</a>.</p>
+								</div><!--col-md-8-->
+								<div class="col-md-4 event-image">
+									<span></span><img src="{{hackathon.image}}" class="img-responsive">
+								</div><!--col-md-4-->
+							</div><!--row-->
+							<hr class="featurette-divider">
+						</div><!--ng-repeat-->
 					</div>
-					<div id="past-tab" class="event-tab-content" ng-show="tab.isSet(3)">
-						<p>past</p>
+					<div id="past-tab" class="event-tab-content" ng-show="tab.isSet(3)" ng-controller="RegistrationClosedController as registrationClosed">
+						<div ng-repeat="hackathon in registrationClosed.closed">
+							<div class="row">
+								<div class="col-md-8">
+									<h3>{{hackathon.name}}</h3>
+									<h4>{{hackathon.date}}<br>{{hackathon.venue}}</h4>
+									<h5>{{hackathon.address}}</h5>
+									<p>{{hackathon.description}}<p>
+									<p>Find out more at <a ng-href="{{'http://' + hackathon.site}}">{{hackathon.site}}</a>.</p>
+								</div><!--col-md-8-->
+								<div class="col-md-4 event-image">
+									<span></span><img src="{{hackathon.image}}" class="img-responsive">
+								</div><!--col-md-4-->
+							</div><!--row-->
+							<hr class="featurette-divider">
+						</div><!--ng-repeat-->
 					</div>
 				</div>
 			</div>

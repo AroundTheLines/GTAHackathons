@@ -19,7 +19,23 @@
 	});
 
 	app.controller("RegistrationOpenController",function(){
-		this.upcoming
+		this.open = []
+
+		for (var i = 0; i < hackathons.length; i++) {
+			if (hackathons[i].signups===true) {
+				this.open.push(hackathons[i]);
+			};
+		};
+	});
+
+	app.controller("RegistrationClosedController",function(){
+		this.closed = []
+
+		for (var i = 0; i < hackathons.length; i++) {
+			if (hackathons[i].signups===false) {
+				this.closed.push(hackathons[i]);
+			};
+		};
 	});
 
 	var hackathons = [
