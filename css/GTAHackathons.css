@@ -14,6 +14,10 @@ h2{
 	font-size: 3.5em;
 }
 
+h3{
+	font-size:2.2em;
+}
+
 .navbar-custom{
 	color:#FFFFFF;
 	padding-top: 4vh;
@@ -62,7 +66,7 @@ h2{
     padding: 100px 0;
     text-align: center;
     color: rgba(255,255,255,0.95);
-    background: url(../img/toronto2.jpg) no-repeat center center scroll;
+    background: url(../img/toronto2.jpg) no-repeat center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -83,11 +87,29 @@ h2{
 }
 
 .about{
-
+	width:100%;
+	height: auto;
+	color: #FFFFFF;
+	padding: 2.5em 0;
+	background: url(../img/hackathons.jpg) no-repeat center scroll;
+	background-color: #000;
+	-webkit-background-size: cover;
+	-mox-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-attachment: fixed;
 }
 
 .about-body{
-	text-align: center;
+	text-align: left;
+}
+
+.about-heading{
+	color: #FFFFFF;
+}
+
+.about-paragraph{
+	font-size: 1.3em;
 }
 
 .events{/*All of the stuff in the events section.*/
