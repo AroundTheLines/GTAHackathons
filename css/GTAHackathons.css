@@ -9,15 +9,20 @@ a{
 	color:#888888;
 }
 
+h2{
+	color: #666665;
+	font-size: 3.5em;
+}
+
 .navbar-custom{
 	color:#FFFFFF;
-	padding-top: 2vh;
+	padding-top: 4vh;
 	position: absolute;
 }
 
 .navbar-custom .nav li a{ /*All of the <a> tags in the navbar except the event button*/
 	text-decoration: none;
-	font-size: 1.3em;
+	font-size: 1.4em;
 	color: #FFFF00;
 	margin-left: 1em;
 	border: 1px solid transparent;
@@ -46,7 +51,7 @@ a{
 
 .navbar-header p{ /*The large "GTAHackathons" thing at the top left*/
 	text-decoration: none;
-	font-size: 2.2em;
+	font-size: 3em;
 	color: #FFFFFF;
 }
 
@@ -77,6 +82,14 @@ a{
 	font-weight: 100;
 }
 
+.about{
+
+}
+
+.about-body{
+	text-align: center;
+}
+
 .events{/*All of the stuff in the events section.*/
 	margin-top:2em;
 }
@@ -87,8 +100,19 @@ a{
 
 .event-heading{
 	font-weight: 500;
-	font-size: 3em;
+	font-size: 3.5em;
 	color: #666665;
+}
+
+.event-tabs{
+
+}
+
+.event-tabs .event-text{
+	font-size: 1.5em;
+	color: #333332;
+	padding-right: 1em;
+	padding-left: 1em;
 }
 
 footer div p{
