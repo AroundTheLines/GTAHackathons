@@ -89,10 +89,9 @@ h3{
 .about{
 	width:100%;
 	height: auto;
-	color: #FFFFFF;
+	color: #333332;
 	padding: 2.5em 0;
-	background: url(../img/hackathonsColorBlurBlack.jpg) no-repeat center scroll;
-	background-color: #000;
+	background-color: #cfcfcf;
 	-webkit-background-size: cover;
 	-mox-background-size: cover;
 	background-size: cover;
@@ -104,23 +103,21 @@ h3{
 	text-align: left;
 }
 
-.about-heading{
-	color: #FFFFFF;
-}
-
 .about-paragraph{
 	font-size: 1.3em;
 }
 
 .events{/*All of the stuff in the events section.*/
 	margin-top:2em;
+	font-size: 1.3em;
 }
 
 .event-body{
-	text-align: center;
+	text-align: left;
 }
 
 .event-heading{
+	text-align: center;
 	font-weight: 500;
 	font-size: 3.5em;
 	color: #666665;
