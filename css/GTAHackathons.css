@@ -89,9 +89,10 @@ h3{
 .about{
 	width:100%;
 	height: auto;
-	color: #333332;
+	color: #FFFFFF;
 	padding: 2.5em 0;
-	background-color: #ffffff;
+	background: url(../img/hackathonsColorBlurBlack.jpg) no-repeat center scroll;
+	background-color: #000;
 	-webkit-background-size: cover;
 	-mox-background-size: cover;
 	background-size: cover;
@@ -101,6 +102,10 @@ h3{
 
 .about-body{
 	text-align: left;
+}
+
+.about-heading{
+	color: #FFFFFF;
 }
 
 .about-paragraph{
