@@ -1,3 +1,4 @@
+
 body, html{
 	height: 100%;
 	color: #888888;
@@ -91,9 +92,13 @@ h5{
 	vertical-align: middle;
 }
 
-.intro-text{
+.intro-text > h1{
 	font-size: 4em;
 	font-weight: 100;
+}
+
+.intro-text > p{
+	font-size: 1.4em;
 }
 
 .about{ /*About section stuff*/
