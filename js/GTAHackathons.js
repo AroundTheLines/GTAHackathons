@@ -75,6 +75,7 @@
 			site: "hackthenorth.com",
 			image: "http://hackthenorth.com/2014/img/logo.png",
 			signups: false
-		}];
+		}
+	];
 
 })(); //end of function wrapper. Good form.

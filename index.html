@@ -41,7 +41,16 @@
 			</div>
 		</nav>
 
-		<div class="side-circles"></div>
+		<div class="dotstyle dotstyle-tooltip">
+			<ul>
+				<li class="current"><a href="#">Home<i></i></a></li>
+				<li><a href="#">About<i></i></a></li>
+				<li><a href="#">Products<i></i></a></li>
+				<li><a href="#">Portfolio<i></i></a></li>
+				<li><a href="#">Blog<i></i></a></li>
+				<li><a href="#">Contact<i></i></a></li>
+			</ul>
+		</div>
 
 		<section id="intro" class="intro">
 			<div class="container intro-body">
@@ -138,5 +147,15 @@
 				<p>&copy; Qile Wang 2015. Cover image by <a class="muted" href="https://www.flickr.com/photos/bielousov/">Anton Bielousov</a>. Image licensed under <a href="https://creativecommons.org/licenses/by/2.0/">creative commons 2.0</a>.</p>
 			</div>
 		</footer>
+		<script type="text/javascript">
+			[].slice.call( document.querySelectorAll( '.dotstyle > ul' ) ).forEach( function( nav ) {
+				new DotNav( nav, {
+					callback : function( idx ) {
+						//console.log( idx )
+					}
+				} );
+			} );
+
+		</script>
 	</body>
 </html>
