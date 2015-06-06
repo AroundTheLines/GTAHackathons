@@ -70,7 +70,7 @@ h5{
 	color: #FFFFFF;
 }
 
-/*Side circle nav bar*/
+/*Side circle nav bar --STARTS HERE----*/
 .dotstyle ul {
 	position: fixed;
 	top:300px;
@@ -132,7 +132,7 @@ h5{
 	top:auto;
 	bottom: -175%;
 	left: -700%;
-	visibility: hidden;
+	visibility: visible;
 	text-decoration: none;
 	padding: 0 10px;
 	width: auto;
@@ -169,10 +169,15 @@ h5{
 	transition: opacity 0.3s ease;
 }
 
-.no-touch .dotstyle-tooltip li:hover a,
 .dotstyle-tooltip li.current a {
+	-webkit-transform: translateX(-50%) translateY(0%);
+	transform: translateX(-50%) translateY(0%);
+	-webkit-transition: -webkit-transform 0.3s ease, opacity 0.3s ease;
+	transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.dotstyle-tooltip li:hover a{
 	z-index: 100;
-	visibility: visible;
+	visibility: visible !important;
 	opacity: 1;
 	-webkit-transform: translateX(-50%) translateY(0%);
 	transform: translateX(-50%) translateY(0%);
@@ -204,7 +209,7 @@ h5{
 	opacity: 1;
 }
 
-/*End of Side Navbar*/
+/*End of Side Navbar  ------END-------*/
 
 .intro { /*The backsplash intro*/
     display: table;
