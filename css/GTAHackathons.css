@@ -2,7 +2,7 @@
 body, html{
 	height: 100%;
 	color: #888888;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a{
@@ -313,6 +313,8 @@ h5{
 }
 
 .event-tab-content{ /*actual contents of the tabs, and not the tabs themselves*/
+	font-family: 'Open Sans', sans-serif;
+	color: #555553;
 	padding: 0.8em 0;
 }
 
