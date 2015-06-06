@@ -313,9 +313,12 @@ h5{
 }
 
 .event-tab-content{ /*actual contents of the tabs, and not the tabs themselves*/
-	font-family: 'Open Sans', sans-serif;
 	color: #555553;
 	padding: 0.8em 0;
+}
+
+.event-tab-content h3{
+	color:#333332;
 }
 
 .event-tab-content a{
