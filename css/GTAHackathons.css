@@ -356,6 +356,14 @@ h5{
 	padding: 1.5em 0;
 }
 
+.newsletter h2{
+	color:#fff;
+}
+
+.newsletter input{
+	text-align: center;
+}
+
 .background-transparent{
 	background-color: transparent;
 }
