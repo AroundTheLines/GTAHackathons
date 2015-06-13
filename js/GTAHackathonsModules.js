@@ -47,7 +47,7 @@
 			description:"Join us and over 100 designers, developers, tinkerers, and innovators on June 12th, 13th and 14th for a weekend dedicated to developing ideas and hacking hardware.",
 			site: "hackathon.pchintl.com/hackathons/kitchener-waterloo",
 			image: "http://i.imgur.com/kRAkj2g.png",
-			signups: true
+			signups: false
 		},{
 			name:"AngelHack Toronto 2015",
 			date:"June 13 9:00 AM - June 14 6:00 PM 2015",
