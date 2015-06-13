@@ -360,6 +360,10 @@ h5{
 	color:#fff;
 }
 
+.newsletter .button::hover{
+	background-color: #666663;
+	transition: all 200ms ease-in-out 0s;
+}
 
 .newsletter .clear{
 	text-align: center;
