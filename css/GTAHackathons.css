@@ -370,9 +370,8 @@ h5{
 }
 
 
-footer div p{
-	color: #00008b
-	padding-top: 1em;
-	height:3em;
+
+footer{
+	padding:1em 0;
 }
 
