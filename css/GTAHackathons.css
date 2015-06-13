@@ -358,7 +358,12 @@ h5{
 }
 
 .newsletter h2{
+	padding: 0.3em 0;
 	color:#fff;
+}
+
+.newsletter p{
+	padding-bottom: 0.3em;
 }
 
 .newsletter .clear{
