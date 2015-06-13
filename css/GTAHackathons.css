@@ -352,17 +352,13 @@ h5{
 .newsletter{
 	background-color: #00008b;
 	text-align: center;
+	font-size: 1.35em;
 	color: #FFF;
 	padding: 1.5em 0;
 }
 
 .newsletter h2{
 	color:#fff;
-}
-
-.newsletter .button::hover{
-	background-color: #666663;
-	transition: all 200ms ease-in-out 0s;
 }
 
 .newsletter .clear{
