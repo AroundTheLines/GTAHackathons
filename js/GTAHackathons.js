@@ -4,4 +4,6 @@
 			$(this).toggleClass('current').siblings().removeClass('current');
 		}
 	});
+
+	$('body').scrollspy({ target: '#side-nav'});
 })(); //end of function wrapper. Good form.

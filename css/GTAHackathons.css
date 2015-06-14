@@ -84,7 +84,7 @@ h5{
 }
 
 /*Side circle nav bar --STARTS HERE----*/
-.dotstyle ul {
+.dotstyle{
 	position: fixed;
 	top:40%;
 	right: 30px;
@@ -120,7 +120,7 @@ h5{
 	height: 100%;
 	outline: none;
 	border-radius: 50%;
-	background-color: #fff;
+	background-color: transparent !important;
 	background-color: rgba(255, 255, 255, 0.3);
 	text-indent: -999em; /* make the text accessible to screen readers */
 	cursor: pointer;
