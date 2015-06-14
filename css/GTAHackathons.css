@@ -137,6 +137,7 @@ h5{
 }
 
 .dotstyle-tooltip li a {
+	border-bottom: none;
 	top:auto;
 	bottom: -175%;
 	left: -700%;
@@ -356,7 +357,7 @@ h5{
 	text-align: center;
 	font-size: 1.35em;
 	color: #FFF;
-	padding: 1.5em 0;
+	padding: 3em 0;
 }
 
 .newsletter h2{
@@ -378,7 +379,7 @@ h5{
 
 footer{
 	background-color: #060606;
-	padding:1.5em 0;
+	padding:2em 0;
 	color:#fff;
 }
 
@@ -397,6 +398,7 @@ footer .row{
 }
 
 footer h5{
+	font-size:1.5em;
 	text-align: center;
 	line-height: 150%;
 }
