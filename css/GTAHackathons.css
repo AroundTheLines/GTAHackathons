@@ -4,6 +4,12 @@ html{
 	height: 100%;
 	color: #888888;
 	font-family: 'Open Sans', sans-serif;
+	background: url(../img/toronto3.jpg) no-repeat center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
 }
 
 a{
@@ -229,13 +235,7 @@ h5{
     padding: 100px 0;
     text-align: center;
     color: rgba(255,255,255,0.95);
-    background: url(../img/toronto3.jpg) no-repeat center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-attachment: fixed;
+
 }
 
 
@@ -280,6 +280,7 @@ h5{
 
 .events{/*All of the stuff in the events section.*/
 	font-size: 1.35em;
+	background-color: #fff;
 }
 
 .event-body{
