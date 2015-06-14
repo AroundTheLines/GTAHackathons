@@ -9,6 +9,12 @@ html{
 a{
 	text-decoration: none;
 	color:#888888;
+	border-bottom:thin dotted;
+}
+
+a:hover{
+	text-decoration: none;
+	border-bottom: thin solid;
 }
 
 h2{
@@ -327,10 +333,6 @@ h5{
 	color: #000;
 }
 
-.event-tab-content a:hover{
-	color: #0000A0;
-}
-
 .event-image{ /*The div that contains the image inside the content of a tab*/
 	text-align: center;
 }
@@ -374,9 +376,39 @@ h5{
 	background-color: transparent;
 }
 
-
-
 footer{
-	padding:1em 0;
+	background-color: #060606;
+	padding:1.5em 0;
+	color:#fff;
+}
+
+footer li{
+	list-style-type: none;
+	line-height: 200%;
+}
+
+footer p{
+	line-height: 160%;
+}
+
+footer .row{
+	text-align: left;
+	font-size: 1.25em;
+}
+
+footer h5{
+	text-align: center;
+	line-height: 150%;
+}
+
+footer a{
+	color:#fff;
+	border-bottom: thin dotted #fff;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: #fff;
+	border-bottom: thin solid #fff;
 }
 
