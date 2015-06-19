@@ -5,5 +5,5 @@
 		}
 	});
 
-	$('body').scrollspy({ target: '#side-nav'});
+	$('body').scrollspy({ target: '#side-nav'}); //I have no idea why this won't work ;-;
 })(); //end of function wrapper. Good form.
