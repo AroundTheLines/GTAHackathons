@@ -6,6 +6,7 @@
 	});
 
 	$("#side-intro").on("click", function(){
-		//
+		//moveto intro
+		//repeat for all other buttons. I hope. 
 	})
 })(); //end of function wrapper. Good form.
