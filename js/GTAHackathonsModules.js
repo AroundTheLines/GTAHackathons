@@ -38,26 +38,7 @@
 		};
 	});
 
-	var hackathons = [
-		{
-			name:"PCH Hackathon Waterloo",
-			date:"June 12 5:00PM - June 14 7:15PM 2015",
-			venue:"Tannery Event Center",
-			address:"City Commercial Core, Kitchener, ON N2G 1H6",
-			description:"Join us and over 100 designers, developers, tinkerers, and innovators on June 12th, 13th and 14th for a weekend dedicated to developing ideas and hacking hardware.",
-			site: "hackathon.pchintl.com/hackathons/kitchener-waterloo",
-			image: "http://i.imgur.com/kRAkj2g.png",
-			signups: false
-		},{
-			name:"AngelHack Toronto 2015",
-			date:"June 13 9:00 AM - June 14 6:00 PM 2015",
-			venue:"BitMaker Lab 220",
-			address: "King Street West, 3rd Floor, Toronto, ON M5H 1K4",
-			description:"AngelHack’s mission is to provide a bridge to the international technology community and the Silicon Valley. We think of coding as a new, global language for change and innovation. We teach our community how to code and that code can create empowerment, equality and open up new opportunities for all. To us, creating code together means making change, together.",
-			site:"http://angelhack.com/hackathon/toronto-2015/",
-			image:"http://websiteplaceholder.com/wp-content/uploads/2014/11/crown.png",
-			signups: false
-		},{
+	var hackathons = [{
 			name:"Tech Retreat",
 			date:"August 15, 2015 8:30 AM to 8:00 PM",
 			venue: "Engineering 5, University of Waterloo",
